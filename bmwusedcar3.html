@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="bmwusedcar3.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <title>The Carvan - BMW Series 3</title>
+</head>
+
+<body>
+  <div class="top">
+    <div class="logocontainer">
+      <a href="index.html">
+        <div class="logo"></div>
+      </a>
+    </div>
+    <ul>
+      <div class="topalign">
+        <li><a class="navlink" href="aboutus.html"><i class="fa fa-user icon" aria-hidden="true"></i> About Us </a></li>
+      </div>
+      <li class="mousepointer brand"><i class="fa-solid fa-car icon"></i>Car Brands<i
+          class="fa-solid fa-arrow-right icon arrowicon"></i><br>
+        <div class="brandmenu">
+          <ul>
+            <li><a class="navlink" href="suzuki.html">Suzuki</a></li>
+            <li><a class="navlink" href="toyota.html">Toyota</a></li>
+            <li><a class="navlink" href="bmw.html">BMW</a></li>
+            <li><a class="navlink" href="nissan.html">Nissan</a></li>
+            <li><a class="navlink" href="honda.html">Honda</a></li>
+            <li><a class="navlink" href="mitsubishi.html">Mitsubishi</a></li>
+          </ul>
+        </div>
+
+
+      </li>
+
+      <li><a class="navlink" href="sizerange.html">Cars By Size Range</a></li>
+      <li class="mousepointer usedbrands"><i class="fa-solid fa-car icon"></i>Pre Owned Cars<i
+          class="fa-solid fa-arrow-right icon arrowicon"></i><br>
+        <div class="brandmenu v2">
+          <ul>
+            <li><a class="navlink" href="suzukiusedcar.html">Suzuki</a></li>
+            <li><a class="navlink" href="toyotausedcar.html">Toyota</a></li>
+            <li><a class="navlink" href="bmwusedcar.html">BMW</a></li>
+            <li><a class="navlink" href="nissanusedcar.html">Nissan</a></li>
+            <li><a class="navlink" href="hondausedcar.html">Honda</a></li>
+            <li><a class="navlink" href="mitsubishiusedcar.html">Mitsubishi</a></li>
+          </ul>
+        </div>
+      </li>
+      <li><a class="navlink" href="contactus.html"><i class="fa-solid fa-user-tie icon"></i>Contact Us</a></li>
+    </ul>
+  </div>
+
+
+
+
+  <div class="logobrand"></div>
+  <div class="suzukitext">
+    <p><b>BMW Series 3</b></p>
+  </div>
+  <br>
+  <div class="slidercontainer">
+
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/BMW-Used/Car 3 (1).jpg"></div>
+        <div class="swiper-slide"><img src="img/BMW-Used/Car 3 (2).jpg"></div>
+        <div class="swiper-slide"><img src="img/BMW-Used/Car 3 (3).jpg"></div>
+        <div class="swiper-slide"><img src="img/BMW-Used/Car 3 (4).jpg"></div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      autoplay: {
+        delay: 3000,
+        disableoninteraction: false,
+      },
+
+      loop: true,
+
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+
+    });
+
+  </script>
+  <div class="descbox">
+    <br>
+    <center>
+      <div class="stats firststat">Transmission<i class="fa-solid fa-gear descicon"></i></div>
+      <div class="statdesc">Automatic</div>
+      <div class="stats">Fuel Capacity<i class="fa-solid fa-gas-pump descicon"></i></div>
+      <div class="statdesc">60 Litres</div>
+      <div class="stats">Engine<i class="fa-solid fa-pipe-valve"></i></div>
+      <div class="statdesc">2000 cc</div>
+      <div class="stats price">PKR 27,500,000</div>
+      <div class="buttoncontainer">
+        <a class="navlink" href="paymentdetails.html">
+          <div class="button">Buy Now</div>
+        </a>
+      </div>
+
+    </center>
+  </div>
+
+  <div class="extradesc">
+    <center>
+      <div class="extradetheading">Details</div><br>
+      BMW 323i 2005 Model June 2020 Custom Port Auction( Verified Papers) January 2022
+Registered iDrive Professional Navigation Memory Seats Automatic Tyre Pressure Monitor No 
+Malfunction Willing to exchange with another car.
+    </center>
+  </div>
+
+
+
+</body>
+
+</html>

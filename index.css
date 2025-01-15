@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    
+}
+body {
+    color: #1d1d1f;
+    background-color: black;
+}
+.top {
+    font-size: large;
+    color: #F2E7D5;
+    height: 86px;
+    background-image: linear-gradient(to bottom, #393E46, #6D9886);
+}
+.navlink{
+    text-decoration: none;
+    color: #F2E7D5;
+}
+.logo{
+    margin-left: 80px;
+    margin-top: 10px;
+    background-image: url(img/Website\ Logo\ no\ BG\ Cropped.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 150px;
+    float: left;
+}
+
+.top ul li{
+    padding: 5px;
+    height: 30px;
+    width: fit-content;
+    border-left: 1px #f2e7d5b0 solid;
+    border-right: 1px #f2e7d5b0 solid;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline-flex;
+}
+.top ul li:hover{
+    background-color: #ffffff2d;
+    border-radius: 3px;
+}
+.topalign{
+    display: inline-flex;
+    margin-left: 200px;
+}
+.mousepointer{
+    cursor: default;
+}
+.brandmenu{
+    border-radius: 10px;
+    margin-top: 35px;
+    display: none;
+    background-color: #6D9886;
+    margin-left: 0px;
+    height: fit-content;
+    width: 95px;
+    padding-top: 0px;
+}
+.brandmenu ul li {
+    
+    text-align: center;
+    width: 127px;
+    background-image: linear-gradient(to right, #6D9886,#393E46);
+    margin-left: 0px;
+    margin-top: 0px;
+    border: none;
+    
+} 
+.brand:hover .brandmenu{
+    display: block;
+    position: absolute;
+}
+.usedbrands:hover .brandmenu{
+    display: block;
+    position: absolute;
+}
+.brandmenu ul li :hover{
+    background-color: #ffffff2d;
+    border-radius: 3px;
+}
+.arrowicon{
+    margin-left: 5px;
+    transition: 0.2s ease-in-out;
+}
+.brand:hover .arrowicon{
+    transform: rotate(90deg);
+}
+.usedbrands:hover .arrowicon{
+    transform: rotate(90deg);
+}
+.v2 ul li{
+    background-image: linear-gradient(to right, #6D9886,#393E46);    
+    width: 168px;
+}
+.icon{
+    margin-right: 5px ;
+    margin-top: 2px;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #393E46;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #6D9886;
+    border: #7a7a7a 1px solid;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-button {
+    background-color: #7a7a7a;
+}
+.slogan{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 20px;
+    margin-top: 65px;
+    font-size: 100px;
+    font-family: 'Cookie', cursive;
+    -webkit-text-stroke: #7a7a7a 1px;
+    text-decoration: underline solid 5px #7a7a7a;
+    background-image: linear-gradient(to left,#393E46,#6D9886);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.banner{
+    margin-top: 30px;
+    
+    background-image: url(img/banner\ video.gif);
+    height: 555px;
+    width: 100%;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.vertbanner{
+    background-origin: content-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    background-color: transparent;
+    height: 960px;
+    width: 25%;
+}
+.banner1{
+    background-image: url(img/2.png);
+}
+.banner2{
+    background-image: url(img/5.gif);
+}
+.banner3{
+    background-image: url(img/1.png);
+}
+.banner4{
+    background-image: url(img/1.gif);
+}
+.footer{
+    margin-top: 628px;
+    color: #F2E7D5;
+    height: 334px;
+    width: 100%;
+    background-color: black;
+}
+.footerlogo{
+    height: 200px;
+    width: 300px;
+    margin-left: 530px;
+    position: absolute;
+    float: none;
+}
+.trademark{
+    margin-left: 27%;
+    text-align: center;
+    position: absolute;
+    margin-top: 220px;
+    color: #F2E7D5;
+    font-size: 40px;
+}
